@@ -7,8 +7,16 @@ import { IoMdMic } from "react-icons/io";
 import { RiVideoAddLine } from "react-icons/ri";
 import { AiOutlineBell } from "react-icons/ai";
 
+{/* <img src="/logo.png" alt="logo" />
+<img src="/profile.jpg" alt="profile" /> */}
+
+
 import logo from "../../public/logo.png";
 import profile from "../../public/profile.jpg";
+
+// {/* <img src="/logo.png" alt="logo" />
+// <img src="/profile.jpg" alt="profile" /> */}
+
 import { useNavigate } from "react-router-dom";
 function Navbar() {
   const [searchQuery, setSearchQuery] = useState("");
